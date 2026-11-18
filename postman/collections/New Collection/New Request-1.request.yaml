@@ -1,0 +1,11 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/books
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "name": "Sample Book"
+    }
+order: 2000

@@ -1,0 +1,12 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/books/1
+method: PUT
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: New Book Name
+      disabled: false
+order: 3000

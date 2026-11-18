@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/books/1794982843622
+method: DELETE
+order: 1000
